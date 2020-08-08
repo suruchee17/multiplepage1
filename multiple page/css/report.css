@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    position:absolute;
+    height:100vh;
+    width:100%;
+    background-color:gray;
+}
+.container-head{
+    position:absolute;
+    height:10%;
+    width:100%;
+    background-color:#00BCD4;
+    
+    text-align: center;
+    font-size:60px;
+    letter-spacing: 3px;
+    color: #fff;
+    
+    
+}
+
+.container-report{
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    top: 35%;
+    background-color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    left: 35%;
+    text-align: center;
+    border-radius: 10%;
+}
+.container-report:hover{
+    background-color:#00BCD4 ;
+    transition: 0.5s;
+    color: #fff;
+}
+.container-sub{
+    position: absolute;
+    height: 75%;
+    width:30% ;
+    background-color: #000;
+    top: 20%;
+    left: 3%;
+    color: black;
+}
+.container-side{
+    position: absolute;
+    height: 75%;
+    width:30% ;
+    background-color: #000;
+    top: 20%;
+    left: 67%;
+    color: black;
+}
+.intro{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    background-color: #f1f1f1;
+}
+.intro:hover{
+    background-color: purple;
+}
+.container-sub h3{
+    text-align: center;
+    color: #00BCD4;
+}
+
+.container-sub p{
+    font-size: 20px;
+    text-align: center;
+}
+.exp{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    left: 50%;
+    background-color: purple;
+}
+.exp:hover{
+    background-color:#f1f1f1 ;
+}
+.tool{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    top: 50%;
+    background-color: purple;
+}
+.tool:hover{
+    background-color: #f1f1f1;
+}
+.project{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    left: 50%;
+    top: 50%;
+    background-color: #f1f1f1;
+}
+.project:hover{
+    background-color: purple;
+}
+.issue{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    background-color: #f1f1f1;
+}
+.issue:hover{
+    background-color: #ef5350b5;
+}
+.file{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    left: 50%;
+    background-color: #ef5350b5;
+}
+.file:hover{
+    background-color:#f1f1f1 ;
+}
+.understanding{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    top: 50%;
+    background-color:#ef5350b5 ;
+
+}
+.understanding:hover{
+    background-color: #f1f1f1;
+}
+.screenshot{
+    position: absolute;
+    height: 47%;
+    width: 47%;
+    left: 50%;
+    top: 50%;
+    background-color: #f1f1f1;
+}
+.screenshot:hover{
+    background-color:#ef5350b5 ;
+}
+.container-side h3{
+    text-align: center;
+    color: #00BCD4;
+}
+
+.container-side p{
+    font-size: 20px;
+    text-align: center;
+}

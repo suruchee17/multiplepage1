@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-image: url('../image/channel.jpg');
+
+    
+}
+.channel{
+    height:90%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+ 
+    top:100%;
+}
+.open-button {
+    background-color:#ef5350b5;
+    border-radius: 5%;
+    color: white;
+    height: 25%;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 4px;
+    font-size: 30px;
+    position: absolute ;
+    top: 50%;
+    left: 40%;
+    width: 20%;
+  }
+  .form-popup {
+   display: none;
+    position: absolute;
+    bottom: 0;
+   justify-content:center;
+    
+   
+    
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    height: 30%;
+    padding:5px;
+    background-color: white;
+    
+  }
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .btn {
+    background-color:blue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-container .btn .btn:hover{
+    opacity: 1;
+    
+  
+}
+  .form-container .cancel {
+    background-color:darkred;
+  }
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
+
+.channel h5{
+    font-size:30px;
+    color:purple;
+}
+
+.container-web{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    left:5%;
+    top:5%;
+    background-color:#f6f6f6;
+}
+.container-wordpress{
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    left:53%;
+    top:5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f6f6f6;
+}
+.container-graphic{
+    position: absolute;
+    height: 30%;
+    width: 40%;
+    top:40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color:#f6f6f6;
+    left:5%
+  
+}
+.container-cyber{
+     position: absolute;
+    height: 30%;
+    width: 40%;
+     top:40%;
+    left:53%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f6f6f6;
+}
+.container-python{
+    position: absolute;
+    height: 25%;
+    width: 40%;
+     top:75%;
+    left:30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f6f6f6;
+
+}
+.benifit{
+      position: absolute;
+      height: 60%;
+      width: 100%;
+      background-color: #f6f6f6;
+      text-align: center;
+     margin-top: 100%;
+  }
+  .benifit-text{
+      text-align: center;
+  }
+  .benifit-text h5{
+      font-size: 40px;
+      margin-top: 5%;
+  }
+  
+.benifit-location{
+    height: 35%;
+    width:20%;
+   margin-top: 5%;
+    position: absolute;
+  
+}
+.benifit-agent{
+    height: 35%;
+    width: 20%;
+   left: 25%;
+   margin-top: 5%;
+    position: absolute;
+  
+}
+.benifit-sell{
+    height: 35%;
+    width: 20%;
+   left: 50%;
+   margin-top: 5%;
+    position: absolute;
+   
+}
+.benifit-rent{
+    height: 35%;
+    width: 20%;
+   left:75%;
+   margin-top: 5%;
+    position: absolute;
+  
+}
+
+.benifit-location h5{
+    font-size: 30px;
+}
+.benifit-agent h5{
+    font-size: 30px;
+}
+.benifit-sell h5{
+    font-size: 30px;
+}
+.benifit-rent h5{
+    font-size: 30px;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow: hidden;
+    color: white;
+}
+header{
+    background-image: url('../image/cove.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat:no-repeat;
+
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+   
+
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+   
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+
+}
+.open-button {
+    background-color:#ef5350b5;
+    border-radius: 5%;
+    color: white;
+    height: 10%;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 4px;
+    font-size: 30px;
+    position: absolute ;
+    top: 60%;
+    left: 45%;
+    width: 12%;
+  }
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+   
+    
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    height: 30%;
+    padding:5px;
+    background-color: white;
+  }
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .btn {
+    background-color:blue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-container .btn .btn:hover{
+    opacity: 1;
+    
+  
+}
+  .form-container .cancel {
+    background-color:darkred;
+  }
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
+
+.social-icon{
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
